@@ -2,7 +2,7 @@
 
 ![Screenshot](http://i.imgur.com/OamSvMa.png)
 
-Minesweeper DS is a clone of the Windows game Minesweeper, with the natural addition of touchpad activation of grid sites. I wrote the game in C++ in 2007.
+Minesweeper DS is a Nintendo DS clone of the Windows game Minesweeper, with the natural addition of touchpad activation of grid sites. I wrote the game in C++ in 2007.
 
 The game was built with [devkitPro](http://devkitpro.org/), which is a toolchain for developing on various game consoles. devkitPro includes a C/C++ compiler for the relevant instruction sets (ARM in the case of GBA and DS) and a library ([libnds](http://libnds.devkitpro.org/)) with convenience methods for accessing DS system registers, etc. Additionally, Martin Korth's [GBATEK](http://problemkaputt.de/gbatek.htm) was an indispensable reference.
 
